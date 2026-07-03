@@ -116,27 +116,35 @@
 
         <div class="relative mt-10">
             <div class="flex items-center gap-4 mb-8">
-                <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400">Dokumentasi Aktivita</span>
+                <span class="text-[10px] font-bold uppercase tracking-[0.3em] text-gray-400">Dokumentasi Aktivitas</span>
                 <div class="flex-grow h-[1px] bg-gray-100"></div>
             </div>
             
             <div class="relative flex overflow-hidden group">
-                <div class="py-4 animate-marquee flex gap-6 flex-nowrap">
-                    <img src=""{{ asset('images/FSI (1).jpg') }}" class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                    <img src=""{{ asset('images/FTT (1).png') }}" class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                    <img src=""{{ asset('images/fsi (3).JPG') }}" class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                    <img src="{{ asset('images/FTT (2).png') }}" class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                </div>
 
-                <div class="py-4 animate-marquee flex gap-6 flex-nowrap ml-6">
-                    <img src="{{ asset('images/fsi (3).jpg') }}" class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                    <img src="{{ asset('images/fsi (4).jpg') }}" class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                    <img src="{{ asset('images/FTT (4).png') }}" class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                    <img src="{{ asset('images/padus.JPG') }} class="h-44 w-72 object-cover rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300">
-                </div>
-            </div>
-        </div>
+  <div class="relative overflow-hidden group">
+    <div class="flex animate-marquee gap-6">
+
+        <!-- Gambar Asli -->
+        <img src="{{ asset('images/FSI (1).jpg') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/FTT (1).png') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/fsi (3).jpg') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/FTT (2).png') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/fsi (4).jpg') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/FTT (4).png') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/padus.JPG') }}" class="h-44 w-72 object-cover rounded-2xl">
+
+        <!-- Duplikat -->
+        <img src="{{ asset('images/FSI (1).jpg') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/FTT (1).png') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/fsi (3).jpg') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/FTT (2).png') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/fsi (4).jpg') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/FTT (4).png') }}" class="h-44 w-72 object-cover rounded-2xl">
+        <img src="{{ asset('images/padus.JPG') }}" class="h-44 w-72 object-cover rounded-2xl">
+
     </div>
+</div>
 </section>
 
 <style>
